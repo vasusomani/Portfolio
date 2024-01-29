@@ -7,7 +7,9 @@
     font-family: 'Poppins', sans-serif;
     color: #b5b3b3ff;
 }
-
+body{
+    overflow-x: hidden;
+}
 header {
     position: fixed;
     top: 0;
@@ -184,6 +186,9 @@ position: relative;
 }
 
 .skills-container {
+    position: relative;
+    width:50vw;
+    left: 55%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
